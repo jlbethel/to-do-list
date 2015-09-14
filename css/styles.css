@@ -1,0 +1,24 @@
+.task {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.task:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+
+#completed-tasks .task {
+  cursor: default;
+  text-decoration: line-through;
+  color: inherit;
+}
+
+.well {
+  margin-top: 5%;
+  height: 75%;
+}
