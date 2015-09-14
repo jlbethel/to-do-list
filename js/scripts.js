@@ -9,9 +9,11 @@ $(document).ready(function() {
     $("ul#tasks").append("<li class='task'>" + newTask.taskName + "</li>");
 
     $("input#task").val("");
-  $(".task").on('click', function() {
-    $(this).appendTo($("#completed-tasks"));
-  });
+
+    
+    $(".task").on('click', function() {
+      $(this).appendTo($("#completed-tasks"));
+    });
   });
 
 });
